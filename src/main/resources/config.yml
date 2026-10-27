@@ -1,0 +1,50 @@
+messages:
+  prefix: "&8[&bAdminKit&8] "
+  claimed: "&aSikeresen megkaptad az admin kitet!"
+  cooldown: "&cMar claimelted az admin kitet! Kovetkezo claim: &f%time%&c mulva."
+  no-permission: "&cNincs jogod ehhez."
+  inventory-full: "&eNem fert minden a taskadba, a maradek a foldre esett."
+  reset-done: "&aA(z) &f%player% &akitje visszaallitva."
+  reset-not-found: "&cNem talalhato jatekos: &f%player%"
+  reloaded: "&aConfig ujratoltve."
+
+# Mennyi ido (oraban) utan claimelheti ujra a kitet. Lehet tort is, pl. 0.5
+cooldown-hours: 24
+
+# Automatikusan felveszi a páncélt, ha a slot üres
+equip-armor: true
+
+# A kit tartalma. enchants formatum: "enchant_nev:szint"
+items:
+  - material: NETHERITE_HELMET
+    name: "&bAdmin Sisak"
+    enchants: ["protection:5", "unbreaking:5", "mending:1", "respiration:3", "aqua_affinity:1"]
+  - material: NETHERITE_CHESTPLATE
+    name: "&bAdmin Mellvert"
+    enchants: ["protection:5", "unbreaking:5", "mending:1"]
+  - material: NETHERITE_LEGGINGS
+    name: "&bAdmin Nadrag"
+    enchants: ["protection:5", "unbreaking:5", "mending:1"]
+  - material: NETHERITE_BOOTS
+    name: "&bAdmin Cipo"
+    enchants: ["protection:5", "unbreaking:5", "mending:1", "feather_falling:4", "depth_strider:3"]
+  - material: NETHERITE_SWORD
+    name: "&cAdmin Kard"
+    enchants: ["sharpness:7", "unbreaking:5", "mending:1", "looting:5", "fire_aspect:2", "sweeping_edge:3"]
+  - material: NETHERITE_PICKAXE
+    name: "&dAdmin Csakany"
+    enchants: ["efficiency:10", "unbreaking:5", "mending:1", "fortune:5"]
+  - material: NETHERITE_AXE
+    name: "&6Admin Balta"
+    enchants: ["sharpness:7", "efficiency:10", "unbreaking:5", "mending:1"]
+  - material: NETHERITE_SHOVEL
+    name: "&aAdmin Aso"
+    enchants: ["efficiency:10", "unbreaking:5", "mending:1"]
+  - material: ENCHANTED_GOLDEN_APPLE
+    amount: 64
+  - material: TOTEM_OF_UNDYING
+    amount: 1
+  - material: ENDER_PEARL
+    amount: 16
+  - material: CARVED_PUMPKIN
+    amount: 64
